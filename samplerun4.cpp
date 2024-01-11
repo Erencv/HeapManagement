@@ -1,5 +1,8 @@
 //////////////////////////////////////////////////////
 // include Memory Manager and related libraries///////
+#include "allocator.cpp"
+#include <unistd.h> // For usleep function
+#include <cstdlib>
 //////////////////////////////////////////////////////
 HeapManager m; // Creating global instance of Memory Manager
 

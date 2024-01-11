@@ -1,6 +1,8 @@
 //////////////////////////////////////////////////////
 // include Memory Manager and related libraries///////
 //////////////////////////////////////////////////////
+#include "allocator.cpp"
+
 HeapManager m; // Creating global instance of Memory Manager
 
 void * run(void * id)  // Thread function
